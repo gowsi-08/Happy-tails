@@ -1,0 +1,66 @@
+.card1 {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-color: #333;
+  margin-top: 100px;
+    text-align: center;
+    border-width: 0.00001;
+  }
+  
+  .card1 h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .signin input[type="email"],
+  .signin input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #424141;
+    border-radius: 14px;
+    border-width: 0.00001;
+    font-size: 16px;
+  }
+  
+  .signin input[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    background-color: #686ae6;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  
+  .signin p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .signin p a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signin p a:hover {
+    text-decoration: underline;
+  }
+  
+  .card1 p {
+    color: rgb(10, 9, 9);
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

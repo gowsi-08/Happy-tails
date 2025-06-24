@@ -1,0 +1,107 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+ 
+  .form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px; 
+    background-color: #ffffff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    
+  }
+  
+
+  .form-container h2 {
+    margin-bottom: 25px; 
+    font-size: 24px;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+ 
+  .form-container .input-group {
+    margin-bottom: 20px; 
+    margin-left: 90px;
+  }
+  
+  
+  .form-container .file-input-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    display: block;
+    margin-left: 90px;
+  }
+  
+  .form-container .file-input-wrapper input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-container .file-input-label {
+    display: block;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #4f46e5;
+    background-color: #f1f5f9;
+    border: 2px dashed #4f46e5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .form-container .file-input-label:hover {
+    background-color: #e0e7ff;
+    color: #3730a3;
+  }
+  
+  /* Submit button styling */
+  .form-container input[type="submit"] {
+    width: 30%; /* Full width to match Signin's button */
+    padding: 12px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f46e5; /* Indigo */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container input[type="submit"]:hover {
+    background-color: #3730a3; /* Darker indigo on hover */
+  }
+  
+  /* Error message styling */
+  .form-container .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+    }
+  
+    .form-container h2 {
+      font-size: 20px;
+    }
+  }
+  

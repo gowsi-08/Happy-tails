@@ -1,0 +1,40 @@
+.about-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+  ; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+    /* Include padding in height calculation */
+  }
+  
+  .about-content {
+    max-width: 800px; /* Limit the width for better readability */
+    text-align: center; /* Center the text */
+    line-height: 1.8; /* Line spacing for readability */
+    color: #333; /* Dark text for contrast */
+    font-family: Arial, sans-serif;
+   /* Simple and clean font */
+  }
+  
+  .about-content h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content h4 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .about-content .adopt {
+    /* Highlight color for "Adopt a Pet" */
+    font-family: Georgia, serif; /* Elegant font for "Adopt a Pet" */
+  }
+  
+  .about-content .rescue {
+   /* Highlight color for "Rescue a Pet" */
+    font-family:  Georgia, serif; /* Clean font for "Rescue a Pet" */
+  }
+  

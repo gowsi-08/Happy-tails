@@ -1,0 +1,173 @@
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.components {
+  background-color: #df56b6;
+  display: inline-grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+
+  height: 60px;
+  padding: 15px;
+  color: white;
+}
+
+.form-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: rgb(153, 150, 150);
+  border-style: solid;
+  border-width: 0.0001px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 350px;
+
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.form-card input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+}
+input {
+  width:200px;
+  border-color: rgb(112, 109, 109);
+  border-style: solid;
+  border-width: 0.0001px;
+  border-radius: 10px;
+}
+.btn-submit {
+  background-color: #6f69ac;
+  color: white;
+  border: none;
+  width: 50%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  margin-left: 70px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-container {
+  text-align: center;
+ 
+  border-radius: 5px;
+  margin-top:20px,
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  border: 0.0001px solid #8a8686;
+ 
+}
+
+.pet-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 80%;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card-img-container {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-placeholder {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 4px;
+  width:100px;
+  transition: background-color 0.3s;
+}
+
+.btn-edit {
+  background-color: #8a65f1;
+  color: white;
+  border: none;
+}
+
+.btn-delete {
+  background-color: #8a65f1;
+  color: white;
+  border: none;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+  accent-color: #010407;
+}
+
+.adoption-item {
+  margin-bottom: 20px;
+}
+
+.adoption-img {
+  width: 100%;
+  height: auto;
+}

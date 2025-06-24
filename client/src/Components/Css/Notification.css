@@ -1,0 +1,74 @@
+.adoption-forms {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 parent cards in a row */
+    gap: 20px;
+    padding: 20px;
+  }
+  .components {
+    background-color:#df56b6;
+    display: inline-grid;
+  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+  
+    height: 60px;
+    padding: 15px;
+    color: white;
+  }
+  
+  .adoption-item-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  .pet-details-card,
+  .form-details-card {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .pet-details-card {
+    margin-top: 0;
+  }
+  
+  .adoption-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover; /* Ensures image maintains aspect ratio */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* General Styling for Headings */
+.form-details-card h3,
+.pet-details-card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #081108; /* Green for form details */
+  text-transform: uppercase;
+  margin: 10px 0;
+  text-align: center; /* Center-align for a clean look */
+  padding-bottom: 5px;
+  border-bottom: 2px solid #ddd; /* Separator line below heading */
+}
+
+/* Pet Details Heading */
+.pet-details-card h3 {
+  color: #07090a; /* Blue for pet details */
+}
+
+  .form-details-card p,
+  .pet-details-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
